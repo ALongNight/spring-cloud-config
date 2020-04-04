@@ -13,6 +13,5 @@ spring:
 feign:
   hystrix:
     enabled: true
-
-comsumer:
+consumer:
   name: bob

@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://app1:8101/eureka/,http://app2:8102/eureka/
 server:
-  port: 8501
+  port: 8301
 
 spring:
   application:
@@ -13,3 +13,6 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+comsumer:
+  name: bob

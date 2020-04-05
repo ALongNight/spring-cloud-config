@@ -14,4 +14,4 @@ feign:
   hystrix:
     enabled: true
 consumer:
-  name: mali
+  name: laowang

@@ -10,4 +10,4 @@ feign:
   hystrix:
     enabled: true
 consumer:
-  name: kd
+  name: sb

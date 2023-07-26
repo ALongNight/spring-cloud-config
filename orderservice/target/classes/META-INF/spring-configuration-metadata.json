@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "pattern",
+      "type": "com.example.orderservice.config.PatternProperties",
+      "sourceType": "com.example.orderservice.config.PatternProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pattern.date-format",
+      "type": "java.lang.String",
+      "sourceType": "com.example.orderservice.config.PatternProperties",
+      "defaultValue": "yyy-MM-dd HH:mm:ss"
+    }
+  ],
+  "hints": []
+}

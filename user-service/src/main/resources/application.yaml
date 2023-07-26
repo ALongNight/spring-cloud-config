@@ -1,0 +1,23 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: userservice
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud_user?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+#        namespace: e8c1e307-72ec-40b2-9327-6f47b8b6fd51
+        cluster-name: HZ
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
